@@ -1,0 +1,82 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+}
+
+
+/* navbar style  */
+
+.navbar-text-dark{
+    color: black;
+}
+.navbar-line{
+    border-left: 2px solid #ddd00f;
+    height: 20px;
+}
+
+#navbar{
+    padding: 12px 15px;
+}
+#navbar2{
+    padding: 8px 15px;
+}
+#navbar-items{
+    gap: 19px;
+}
+#flag-gap{
+    gap: 8px;
+}
+nav{
+    padding: 0px 10px;
+}
+.search-bar{
+    height: 38px ;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    border-color: transparent;
+}
+#nav-hide{
+    display: block;
+}
+#icon{
+    font-size: 25px;
+    display: none;
+}
+#icon2{
+    font-size: 20px;
+    display: none;
+}
+#carosal-med{
+    width: 100%;
+}
+.navbar-p-color{
+    color: #3866e0;
+}
+.pink-margin{
+    margin-left: 12px;
+}
+
+
+@media(max-width: 1265px){
+    #nav-hide{
+        display: none;
+    }
+    #icon{
+        display: block;
+    }
+}
+@media(max-width: 1265px){
+    #nav-hide{
+        display: none;
+    }
+    #icon2{
+        display: block;
+    }
+}
+@media(max-width: 1265px){
+    #carosal-med{
+        display: block;
+        
+    }
+}
